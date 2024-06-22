@@ -47,4 +47,4 @@ def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 if __name__ == '__main__':
-    app.run(port=4000, debug=True)
+    app.run(port=80, debug=True)
